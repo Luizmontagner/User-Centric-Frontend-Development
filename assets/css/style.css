@@ -1,3 +1,118 @@
-nav {
-    color: red;
+@import url('https://fonts.googleapis.com/css?family=Exo|Lato:300'); 
+ 
+ *{
+    margin:0;
+    padding:0;
+    border:0;
+ }
+ 
+ body {
+     font-family: "Exo", sans-serif;
+     margin: 0;
+     background-color: #DB8B8B;
+ }
+  
+ h2 {
+     clear: both;
+ }
+
+ p {
+    letter-spacing: 1px;
+    position: relative;
+    top: 30%;
+    left: 10%;
+    margin-right: -30%;
+    margin: 1%;
+    bottom: -15px;
+ }
+
+ img {
+    width: 400px;
+    height: 400px;
+    padding: 30;
+    float: left;
+    margin-top: 15%;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-radius: 30%;
+    margin: 20px;
+    margin-bottom: 10%;
+ }
+
+ /* ----------------------------Menu links */
+
+ nav > a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #3a3a3a;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+    top: 50%;
+    left: 10%;
+    margin-right: -30%;
+    margin: 1%;
+    bottom: -15px;
+}
+
+nav > a:hover {
+    color: #3a3a3a;
+    border-bottom: 2px solid #3a3a3a;
+}
+
+
+ /* ----------------------------Footer */
+
+footer {
+     height: 150px;
+     font-size: 25px;  
+ }
+
+
+ li {
+     list-style-type: none;
+     text-decoration: none;
+     text-align: center;
+     display: inline;
+     
+ }
+
+i {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: #3a3a3a;
+    top: 50%;
+    left: 30%;
+    margin-right: -50%;
+    margin: 1%;
+    bottom: -15px;
+    text-align: center;
+ }
+
+ .whatsapp:hover {
+     color: greenyellow;
+ }
+
+ .instagram:hover {
+     color: red;
+ }
+
+ .facebook:hover {
+     color: blue;
+ }
+
+/* ----------------------------Gallery */
+.pictures {
+    display: inline;
+    line-height: 0;
+    column-count: 1;
+    column-gap: 100%;
+    width: 30%;    
+    height: 30%;   
+    margin-top: 10%;
+    margin-bottom: 50%;
 }
