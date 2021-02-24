@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Shippori+Mincho:wght@500&display=swap'); 
+
  
  /* *{
     margin:0;
@@ -9,15 +10,46 @@
  body {
      font-family: 'Montserrat', sans-serif;
      font-family: 'Shippori Mincho', serif;
-     color: #C57D7D;
-     background-color: #252525;
+     color: #F0C1B3;
+     background-color: #C57D7D;
      text-align: justify;
  }
   
 
  /* ----------------------------Menu links */
 
-.text-underline {
+ .container{
+     text-align: center;
+     margin-left: 5%;
+     margin-right: 5%;
+     margin-top: 2px;
+     margin-bottom: 2px;
+     height: 350px;
+     width: 100%;
+     background-color: #d09797;
+     border-radius: 9%;
+ }
+
+ .nav-link {
+     text-decoration: none;
+     list-style: none;
+     color: #F0C1B3;
+     font-family: 'Montserrat', sans-serif;
+     text-transform: uppercase;
+     font-weight: bold;
+     letter-spacing: 5px;
+ }
+
+ .nav-link:hover {
+    color: #F0C1B3;
+    border-bottom: 1px solid #F0C1B3;
+}
+
+.icon-color {
+    color: #F0C1B3;
+}
+
+/* .text-underline {
     font-size: 110%;
     text-decoration: none;
     color: #C57D7D;
@@ -27,36 +59,24 @@
     float: right;
     position: relative;
     display: inline;
-}
+} */
 
 
-.text-underline:hover {
-    color: #F0C1B3;
-    border-bottom: 1px solid #F0C1B3;
-}
 
 
-.icon-color {
-    color: #C57D7D;
-}
+
 
  /* ----------------------------Logo image */
 
-#logo {
-
-    float: left;
-    margin-left: 4%;
-    margin-top: 4%;
-    
-   
+.logo {
+     margin-top: 50px;
+     margin-left: 0px;
+     color: #F0C1B3; 
 }
 
-h2{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%
+.hero-image{
+    margin-right: 10px;
+    border-radius: 9%;
 }
 
  /* ----------------------------Footer */
@@ -67,26 +87,14 @@ footer {
  }
 
 
- li {
+ .social-media {
      list-style-type: none;
      text-decoration: none;
+     position: relative;
      text-align: center;
-     display: inline;
-     
  }
 
-i {
-    list-style-type: none;
-    text-decoration: none;
-    font-size: 20px;
-    color: #3a3a3a;
-    top: 50%;
-    left: 30%;
-    margin-right: -50%;
-    margin: 1%;
-    bottom: -15px;
-    text-align: center;
- }
+
 
  .whatsapp:hover {
      color: greenyellow;
